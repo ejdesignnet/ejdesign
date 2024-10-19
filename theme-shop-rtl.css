@@ -1,0 +1,30 @@
+.icon-ion-ios-arrow-back::before {
+    content: "" !important;
+}
+.icon-ion-ios-arrow-forward::before {
+	content: "" !important;
+}
+.woocommerce div.product .lqd-woo-pagination a[rel=prev]:hover span {
+    transform: translateX(3px) !important;
+}
+.woocommerce div.product .lqd-woo-pagination a[rel=next]:hover span {
+    transform: translateX(-3px) !important;
+}
+.ld-module-cart-offcanvas a.ld-cart-product-remove.remove {
+    left: 0 !important;
+    right: auto !important;
+}
+span.btn-icon.rtlchkt {
+    transform: rotate(180deg);
+}
+.lqd-woo-steps-item svg {
+    left: 0 !important;
+    right: auto !important;
+}
+.woocommerce #yith-wcwl-form .cart-coupon-inner button, .woocommerce .woocommerce-cart-form .cart-coupon-inner button {
+    left: 0 !important;
+    right: auto !important;
+}
+.woocommerce .woocommerce-cart-form .cart-coupon-inner button i {
+    transform: rotate(180deg) !important
+}
